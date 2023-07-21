@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" type="text/css" href="style.css">
+ 
+    <title>Login Akashi</title>
+</head>
+<body>
+    <div class="alert alert-warning" role="alert">
+        <?php echo $_SESSION['name']?>
+    </div>
+ 
+    <div class="container">
+        <img src="assets/df8edddc-9a1c-4b78-8b6b-c5e78f746b3a-removebg-preview.png" class="img">
+        
+        <form action="" method="POST" class="login-email">
+            <p class="login-text" style="font-size: 2rem; font-weight: 800;">Login Gate</p>
+            <div class="input-group">
+                <input type="username" placeholder="ID" name="id">
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Password" name="password">
+            </div>
+            <div class="input-group">
+                <button name="submit" class="btn">Login</button>
+            </div>
+    </div>
+</body>
+</html>
